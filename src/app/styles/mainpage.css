@@ -1,0 +1,125 @@
+.div-content-left{
+    position: fixed;
+    color: rgb(212, 228, 241);
+    width: 20%;
+    background-color:#bb7936;
+    height: 100vh;
+    
+    display: inline-block;
+
+    /* Nội dung được ghi trên cùng của div */
+    vertical-align: top;
+
+    /* Xếp các item theo chiều dọc */
+    flex-direction: column;
+
+    text-align: center;
+
+    font-size: 16px;
+}
+
+
+.div-content-right{
+    float: right;
+    width: 80%;
+    background-color: rgb(245, 243, 242);
+    height: 100vh;
+    display: inline-block;
+
+    /* Thanh cuộn nếu nội dung dài thêm */
+    overflow-y: auto;
+}
+
+/* Hình trang manager */
+.img{
+    height: 100vh;
+    width: 100%;
+    background: url('/coffee.jpg');
+    background-size: cover;
+}
+h4{
+    margin: 2px;
+    color: black;
+}
+
+label{
+    color: black;
+}
+
+.line{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    height: 2px;
+}
+
+
+.nav-manager button{
+    width: 100%;
+    background-color: #bb7936;
+    border: 0;
+    padding: 9%;
+    padding-left: 16%;
+    color: rgb(212, 228, 241);
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+}
+
+.nav-manager button:hover{
+    background-color:#CD853F;
+    color:rgb(87, 83, 77);
+}
+
+.search{
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    width: 350px;
+    height: 30px;
+}
+
+.inp-search{
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+    height: 100%;
+    border: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-search{
+    border-radius: 0 4px 4px 0;
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    padding: 0;
+    right: 0;
+    top: 0;
+    border: 1;
+   background-color: #CD853F;
+}
+
+.selectedTab{
+    background-color: #F4A460 !important; 
+    color: rgb(39, 37, 37) !important;
+}
+.form-search{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.icon{
+    margin-right: 20px;
+    font-size: 17px;
+}
+.image{
+    text-align: center;
+    margin-top: 55px;
+}
+
+.bottom{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
